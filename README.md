@@ -60,9 +60,13 @@ cd alpha_betha_predictor_api
 uvicorn app.main:app --reload
 ```
 
-2. La API estará disponible en: `http://localhost:2500`
+2. La API estará disponible en: `http://localhost:2500`, Puede probarla, con los datos 'data\to_predict.json'
 
 3. Accede a la documentación interactiva en: `http://localhost:2500/docs`
+
+4. En la carpeta Notebooks, se encuentran los cuadernos de Jupiter, en los cuales se desarrollaron el modelo de Forecast de la demanda y el clasificador Alpha, Betha.
+
+5. Los modelos de predicción se encuentran en la carpeta *ml_models*
 
 ## Ejemplo de Uso
 
