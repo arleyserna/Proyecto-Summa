@@ -42,8 +42,10 @@ pip install -r requirements.txt
 alpha_betha_predictor_api/
 ├── app/
 │   ├── adapters/           # Adaptadores para transformación de datos
+│   ├── data/               # Contiene los to_predict.json con los datos para predicción Alpha- Betha
 │   ├── data_models/        # Modelos de datos Pydantic
 │   ├── ml_models/          # Modelos pre-entrenados
+│   ├── Noteboos/           # Cuadernos de Jupyter para la implementación de los modelos de demand_forecast y alpha_betha_classifier
 │   ├── routers/            # Rutas de la API
 │   ├── services/           # Lógica de negocio
 │   ├── utils/              # Utilidades y configuración
